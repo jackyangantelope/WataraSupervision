@@ -1,0 +1,5 @@
+{
+  "potator": {"url": "https://github.com/libretro/potator", "commit": "227c5f6f3ce74d32e9002ce24c1420288559a860", "license": "Unlicense"},
+  "vrEmu6502": {"url": "https://github.com/visrealm/vrEmu6502", "commit": "aae98cb14386d832cb7357c99626520b6590bc24", "license": "MIT"},
+  "pico_shared": {"url": "https://github.com/fhoedemakers/pico_shared", "commit": "df683bf00ff95e1ceda88f132bbf72f8cc7cadb0", "license": "GPL-3.0-only"}
+}

@@ -1,0 +1,16 @@
+/build/
+/.claude/
+/.codex/
+/tools/release/
+*.uf2
+*.elf
+*.map
+*.bin
+*.hex
+*.rom
+*.sv
+*.dsk
+*.cas
+*.sav
+*.zip
+__pycache__/

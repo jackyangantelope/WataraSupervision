@@ -1,0 +1,20 @@
+[
+  {
+    "path": "deps/vrEmu6502/LICENSE",
+    "upstream_path": "LICENSE",
+    "upstream_sha256_lf": "d09de2afb377d29147398264e0cc29cf6f3793221fa90cb3d091be870af91208",
+    "local_sha256_lf": "d09de2afb377d29147398264e0cc29cf6f3793221fa90cb3d091be870af91208"
+  },
+  {
+    "path": "deps/vrEmu6502/src/vrEmu6502.c",
+    "upstream_path": "src/vrEmu6502.c",
+    "upstream_sha256_lf": "148810a9477a003f1455e22dc50be7b2cc5312510816747eacae9cbdc67ae74f",
+    "local_sha256_lf": "0961adb94e4940ff93bed42dd06135c91ae4e362a9d9ac70e70351c60feb2fe7"
+  },
+  {
+    "path": "deps/vrEmu6502/src/vrEmu6502.h",
+    "upstream_path": "src/vrEmu6502.h",
+    "upstream_sha256_lf": "38dcfc5d22cd5fb26726f337d60cbb5a71d93dfa026ecff746ff2e63294221c2",
+    "local_sha256_lf": "d8920720d0bfe6ca76b98fcbc4daa4687bb0d2c0d6f3ce9d4fc3ad01bd7b4e05"
+  }
+]

@@ -1,0 +1,22 @@
+/* SPDX-License-Identifier: BSD-3-Clause */
+#pragma once
+#define R8_SV_SPLIT_PROFILE 1
+#define R8_SV_BATCH 1
+#define R8_SV_CPU_RAM 1
+#define R8_SV_SRAM_PIXELS 1
+#define R8_SV_GROUP_RENDER 1
+#define R8_SV_FAST 1
+#define R8_SV_WAIT_AB 1
+#define R8_SV_THRESHOLD_AB 1
+#define R8_SV_FIXED_BOOT 1
+#define SV_FIXED_SELECTOR 2
+#define R8_SV_DEX_BATCH 1
+#define SV_DEX_BATCH_SELECTOR 2
+#define R8_SV_IO_BATCH 1
+#define SV_IO_BATCH_SELECTOR 2
+#define R8_SV_RELEASE_BATCH 1
+#define SV_RELEASE_SELECTOR 2
+#define R8_SV_PCFILTER 1
+#define SV_PCFILTER_SELECTOR 2
+#define R8_SV_OPFILTER 1
+#define SV_OPFILTER_SELECTOR 2

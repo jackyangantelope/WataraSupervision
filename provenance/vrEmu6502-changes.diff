@@ -1,0 +1,52 @@
+--- upstream/vrEmu6502/src/vrEmu6502.c
++++ local/vrEmu6502/src/vrEmu6502.c
+@@ -371,6 +371,34 @@
+ 
+   if (vr6502->step) --vr6502->step;
+ }
++
++#if R8_SV_BATCH
++/* Local MIT extension. The original tick performs no bus operation, pin
++ * check or instruction work while step>0. Only those countdown ticks are
++ * combined. Keep partial instructions across caller event boundaries. */
++#if R8_SV_CPU_RAM
++__attribute__((section(".time_critical.sv_run_cycles")))
++#endif
++__attribute__((flatten))
++void vrEmu6502RunCycles(VrEmu6502* vr6502, uint32_t cycles)
++{
++  while (cycles)
++  {
++    if (vr6502->stp) return;
++    if (vr6502->step)
++    {
++      uint32_t n = vr6502->step < cycles ? vr6502->step : cycles;
++      vr6502->step -= n;
++      cycles -= n;
++    }
++    else
++    {
++      vrEmu6502Tick(vr6502);
++      --cycles;
++    }
++  }
++}
++#endif
+ 
+ /* ------------------------------------------------------------------
+  *
+--- upstream/vrEmu6502/src/vrEmu6502.h
++++ local/vrEmu6502/src/vrEmu6502.h
+@@ -174,6 +174,12 @@
+  */
+ VR_EMU_6502_DLLEXPORT uint8_t vrEmu6502InstCycle(VrEmu6502* vr6502);
+ 
++#if R8_SV_BATCH
++/* Local MIT extension: exactly the requested number of original ticks.
++ * Caller must stop at every external event/service boundary. */
++VR_EMU_6502_DLLEXPORT void vrEmu6502RunCycles(VrEmu6502* vr6502, uint32_t cycles);
++#endif
++
+ /* ------------------------------------------------------------------
+  *
+  * returns a pointer to the interrupt signal.

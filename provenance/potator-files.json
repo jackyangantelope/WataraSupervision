@@ -1,0 +1,80 @@
+[
+  {
+    "path": "deps/potator/controls.c",
+    "upstream_path": "common/controls.c",
+    "upstream_sha256_lf": "f0e2e92dca20a41ca3eca5ee88132bd4a11842c63b5c4eb88676a95fe1e1dba8",
+    "local_sha256_lf": "f0e2e92dca20a41ca3eca5ee88132bd4a11842c63b5c4eb88676a95fe1e1dba8"
+  },
+  {
+    "path": "deps/potator/controls.h",
+    "upstream_path": "common/controls.h",
+    "upstream_sha256_lf": "ad22c9124a1bf48a51d644ce5d61cd431185223996b97f04cc700ad30f6b522b",
+    "local_sha256_lf": "ad22c9124a1bf48a51d644ce5d61cd431185223996b97f04cc700ad30f6b522b"
+  },
+  {
+    "path": "deps/potator/gpu.c",
+    "upstream_path": "common/gpu.c",
+    "upstream_sha256_lf": "2bf9b7f89cff1dc1202229e96b9d0ed654ce871334ba769b387cf58ff880a6b0",
+    "local_sha256_lf": "2bf9b7f89cff1dc1202229e96b9d0ed654ce871334ba769b387cf58ff880a6b0"
+  },
+  {
+    "path": "deps/potator/gpu.h",
+    "upstream_path": "common/gpu.h",
+    "upstream_sha256_lf": "e82ad0daa5764c94da54ac9282aa487b7fbf58648b4c27b65f3985ad74fbc4aa",
+    "local_sha256_lf": "e82ad0daa5764c94da54ac9282aa487b7fbf58648b4c27b65f3985ad74fbc4aa"
+  },
+  {
+    "path": "deps/potator/LICENSE",
+    "upstream_path": "LICENSE",
+    "upstream_sha256_lf": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+    "local_sha256_lf": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+  },
+  {
+    "path": "deps/potator/memorymap.c",
+    "upstream_path": "common/memorymap.c",
+    "upstream_sha256_lf": "880c8462f9269b1a0fa49230626b77bf7efa9443a741308cbaa31e88f15c9483",
+    "local_sha256_lf": "03cbd19ca5335af089c90bb4846f8ffd35f248deb57718207d56318c1b10a890"
+  },
+  {
+    "path": "deps/potator/memorymap.h",
+    "upstream_path": "common/memorymap.h",
+    "upstream_sha256_lf": "296644cc872599b6f001f50a2cf4db8801ecb2384e5d2500f299926c0c5779fb",
+    "local_sha256_lf": "a46d766f0b0660ea9506a19e4f7c6d2185cdc015714fc8de72b9ce98a6fb317a"
+  },
+  {
+    "path": "deps/potator/sound.c",
+    "upstream_path": "common/sound.c",
+    "upstream_sha256_lf": "611a1ba0fb377e54725134275d2b8a45750c7f16a03521589cbd999972a59f16",
+    "local_sha256_lf": "5f94609c05fbddd6a7b0e3d7931b0b62c0d4a224e455531d3e3169ad42f1591c"
+  },
+  {
+    "path": "deps/potator/sound.h",
+    "upstream_path": "common/sound.h",
+    "upstream_sha256_lf": "5efc3d6a41aa27f0a8bc787b1abde8071e7c114148e9bda213a9a1aa91c6bff9",
+    "local_sha256_lf": "5efc3d6a41aa27f0a8bc787b1abde8071e7c114148e9bda213a9a1aa91c6bff9"
+  },
+  {
+    "path": "deps/potator/supervision.h",
+    "upstream_path": "common/supervision.h",
+    "upstream_sha256_lf": "54df1e11aa1ba3b8163b7f573c1a03ccc4bfde534954b58467b963c8ed5fe403",
+    "local_sha256_lf": "54df1e11aa1ba3b8163b7f573c1a03ccc4bfde534954b58467b963c8ed5fe403"
+  },
+  {
+    "path": "deps/potator/timer.c",
+    "upstream_path": "common/timer.c",
+    "upstream_sha256_lf": "d1d6ad2c6a6985e9ca137193ef3079af9e3f636db8bdc82a04b8e3fce85cd9f0",
+    "local_sha256_lf": "d1d6ad2c6a6985e9ca137193ef3079af9e3f636db8bdc82a04b8e3fce85cd9f0"
+  },
+  {
+    "path": "deps/potator/timer.h",
+    "upstream_path": "common/timer.h",
+    "upstream_sha256_lf": "e0a27f52e7a00aa68a9041e22995cc49c2115f9c7505c2b9b6168dd816bf8b21",
+    "local_sha256_lf": "e0a27f52e7a00aa68a9041e22995cc49c2115f9c7505c2b9b6168dd816bf8b21"
+  },
+  {
+    "path": "deps/potator/types.h",
+    "upstream_path": "common/types.h",
+    "upstream_sha256_lf": "89c0bc436c9e61773cfad6b7639028c05d5c28e7ea9cd39f0e3bf1f7dabdb001",
+    "local_sha256_lf": "89c0bc436c9e61773cfad6b7639028c05d5c28e7ea9cd39f0e3bf1f7dabdb001"
+  }
+]
